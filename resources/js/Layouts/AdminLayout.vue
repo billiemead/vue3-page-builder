@@ -112,4 +112,47 @@ export default (await import('vue')).defineComponent({
         justify-content: center;
         align-items: center;
     }
+    .top-nav ul.top-menu > li > a {
+            display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .btn-success {
+        background-color: #FF6C60;
+        color: #fff;
+        border-color: #FF6C60;
+    }
+    .table-agile-info {
+        background: #efefef !important;
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,0.125);
+        border-radius: 0.25rem;
+    }
+    .card-header {
+        border-bottom: 1px solid rgba(0,0,0,0.125);
+        padding: 0.75rem 0.75rem;
+        padding-top: 1.3rem;
+        position: relative;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        color: #000 !important;
+        background-color: #DDEDE0 !important;
+        border-color: #DDEDE0 !important;
+        font-size: 20px;
+    }
+    .card-body {
+        flex: 1 1 auto;
+    }
 </style>

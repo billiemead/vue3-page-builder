@@ -9,10 +9,6 @@ h1, h2, h3 {margin: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 
-h1{
-    color:green !important;
-}
-
 html, body{
 	font-family: 'Roboto', sans-serif;
     font-size: 100%;
@@ -829,7 +825,7 @@ header.agileits-box-header.clearfix h3 {
     margin-bottom: 1em;
 }
 .calendar-widget {
-    background-color: #eef9f0;
+    background-color: #efefef;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -893,7 +889,7 @@ span.panel-title{
     margin-top: -40px;
 }
 .notifications{
-	background-color: #eef9f0;
+	background-color: #efefef;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -940,7 +936,7 @@ div#graph1,div#graph4,div#graph5,div#graph6,div#graph7,div#graph8,div#graph9 {
     z-index: 1;
 }
 .agile-Updating-grids, .agile-bottom-grid, .agile-last-grid {
-    background: #eef9f0;
+    background: #efefef;
     padding: 2em;
 	border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -1131,7 +1127,7 @@ div#graph1,div#graph4,div#graph5,div#graph6,div#graph7,div#graph8,div#graph9 {
 }
 /*--Progress bars--*/
 .stats-info-agileits {
-    background: #eef9f0;
+    background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -1148,14 +1144,14 @@ h4.title {
     text-transform: uppercase;
 }
 .stats-last-agile {
-    background: #eef9f0;
+    background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .w3-agile-google_map{
-    background: #eef9f0;
+    background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -1178,7 +1174,7 @@ h4.title {
     margin-bottom: 10px;
 }
 .typo-agile {
-    background: #eef9f0;
+    background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -1192,7 +1188,7 @@ h4.title {
     padding: 8px 15px;
    background: rgb(218, 223, 219);
     margin: 1em 0 1em 0;
-    border: 5px solid #eef9f0;
+    border: 5px solid #efefef;
     text-align: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1634,35 +1630,35 @@ ul.bs-glyphicons-list {
     text-align: center;
 }
 .agile-grid{
-	background: #eef9f0;
+	background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .wthree-font-awesome{
-	background: #eef9f0;
+	background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .w3layouts-glyphicon{
-	background: #eef9f0;
+	background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .table-agile-info{
-	background: #eef9f0;
+	background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 .form-w3layouts{
-	background: #eef9f0;
+	background: #efefef;
     padding: 2em;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -2516,7 +2512,7 @@ div#chartContainer5,div#chartContainer6,div#chartContainer7,div#chartContainer8 
     min-height: 500px;
 }
 .chart_agile_top {
-    background-color: #eef9f0;
+    background-color: #efefef;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -2524,14 +2520,14 @@ div#chartContainer5,div#chartContainer6,div#chartContainer7,div#chartContainer8 
     margin: 0 0 2em;
 }
 .floatcharts_w3layouts_top{
-    background-color: #eef9f0;
+    background-color: #efefef;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
     padding: 2em;
 }
 .map_wthree_top{
-    background-color: #eef9f0;
+    background-color: #efefef;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
