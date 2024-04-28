@@ -12,7 +12,37 @@ export default (await import('vue')).defineComponent({
         getPageSections() {
             alert("About to get page sections");
         }
-    }
+    },
+    data() {
+        return {
+            pageSections: [
+                {
+                id: 1,
+                title: 'Hero',
+                contentType: 'hero',
+                content: 'Will be replaced with Hero',
+                },
+                {
+                id: 2,
+                title: 'Courses',
+                contentType: 'dynamic',
+                content: 'Will be replaced with Courses',
+                },
+                {
+                id: 3,
+                title: 'Learn to Code',
+                contentType: 'static',
+                content: 'Will be replaced with Database content',
+                },
+                {
+                id: 4,
+                title: 'Why Choose Us',
+                contentType: 'static',
+                content: 'Will be replaced with Why Choose Us',
+                },
+            ],
+        }
+    },
     })
 </script>
 
@@ -48,7 +78,7 @@ export default (await import('vue')).defineComponent({
                         </div>
                         <div class="col-9">
                             <div class="card page-sections">
-                                <SectionManager> </SectionManager>
+                                <SectionManager v-for="(section,index) in pageSections" :key="section.id" :section="section"> </SectionManager>
                             </div>
                         </div>
                     </div>

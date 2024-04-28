@@ -1,26 +1,32 @@
 <script>
-export default (await import('vue')).defineComponent({
-    data() {
-        return{
-            isPanelActive: false,
-        }
-    },
-    methods: {
-        togglePanel(){
-            this.isPanelActive = !this.isPanelActive;
-        }
-    },
-});
+import HeroManager from '@/Components/Admin/HeroManager.vue';
+    export default (await import('vue')).defineComponent({
+        data() {
+            return{
+                isPanelActive: false,
+            }
+        },
+        methods: {
+            togglePanel(){
+                this.isPanelActive = !this.isPanelActive;
+            }
+        },
+        components: {
+            HeroManager,
+        },
+        props: ['section'],
+    });
 </script>
 
 <template>
     <div @click="togglePanel()" class="accordion section-title">
-        section title
+        {{ section.title }}
         <font-awesome-icon icon="fa-plus"></font-awesome-icon>
     </div>
     <div class="panel" :class="{ active:isPanelActive }">
         <div class="panel-content">
-            Panel Content
+            <HeroManager v-if="section.contentType=='hero'" ></HeroManager>
+            {{section.content}}
         </div>
         <div class="panel-footer">
             <div class="right-col">
